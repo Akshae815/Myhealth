@@ -6,7 +6,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Configure the key
-genai.configure(api_key=os.getenv('GOOGLE-API-KEY'))
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 # Create the front end
 st.header('❤️‍🩹Healthcare :blue[Advisor]🩺',divider='red')
